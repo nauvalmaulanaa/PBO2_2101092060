@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abel.model;
+package nauval.model;
 
 /**
  *
@@ -60,7 +60,7 @@ public class Anggota {
     }
     
     public static void main(String[] args) {
-        Anggota ali = new Anggota("A001","Abel","Padang","L");
+        Anggota ali = new Anggota("A001","Nauval","Padang","L");
         ali.setKodeanggota("001");
         ali.kodeanggota="002";
     
