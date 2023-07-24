@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abel.model;
+package nauval.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
