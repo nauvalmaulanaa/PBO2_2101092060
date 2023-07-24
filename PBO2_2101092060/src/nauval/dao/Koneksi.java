@@ -4,14 +4,14 @@
  * and open the template in the editor.
  */
 package nauval.dao;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+
 /**
  *
- * @author Nauval
+ * @author User
  */
 public class Koneksi {
     private String url = "jdbc:mysql://localhost/pbo2_2101092060";
@@ -22,4 +22,7 @@ public class Koneksi {
         Class.forName("com.mysql.jdbc.Driver");
         return DriverManager.getConnection(url, username, password);
     }
+
+   
 }
+
